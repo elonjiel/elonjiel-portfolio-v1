@@ -12,7 +12,7 @@ function Navbar() {
 
 
   return (
-     <nav className="font-fjalla bg-color-900">
+     <nav className="font-fjalla bg-color-900 opacity-95">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-14">
           <div className="flex-shrink-0">
@@ -26,14 +26,14 @@ function Navbar() {
               <a href="#" className="text-color-50 hover:text-color-400 hover:underline px-3 py-2 rounded-md text-sm font-medium">Contact</a>
             </div>
           </div>
-      <div className="md:hidden">
-        {/* Mobile menu button */}
-        <button className="mobile-menu-button" onClick={toggleMobileMenu}>
-          <RxHamburgerMenu className="text-color-50"/>
-        </button>
-      </div>
-      </div>
-      </div>
+          <div className="md:hidden">
+            {/* Mobile menu button */}
+            <button className="mobile-menu-button" onClick={toggleMobileMenu}>
+            <RxHamburgerMenu className="text-color-50"/>
+            </button>
+          </div>
+        </div>
+     </div>
       {/* Mobile menu */}
       {isMobileMenuOpen && (
         <div className="md:hidden mobile-menu">
