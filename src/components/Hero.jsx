@@ -1,8 +1,9 @@
 import React from 'react'
 import { motion } from "framer-motion"
+import profileImage from "../images/profile.jpg"
 
 const container = (delay) => ({
-  hidden: {x: -100, opacity: 0},
+  hidden: {x: -15, opacity: 0},
   visible: {
     x: 0,
     opacity: 1,
@@ -25,14 +26,14 @@ function Hero() {
           className="text-6xl tracking-tight text-color-400 pb-8 lg:mt-24 lg:text-8xl">Elon Jiel
           </motion.h1>
         <motion.p 
-          variants={container(0.8)}
+          variants={container(0.7)}
           initial="hidden"
           animate="visible"
           className="bg-gradient-to-r from-color-200 via-color-400 to-color-700 bg-clip-text text-4xl tracking-tight text-transparent">
-          Frontend Developer
+          Front-End Developer
         </motion.p>
         <motion.p 
-           variants={container(1.1)}
+           variants={container(0.9)}
            initial="hidden"
            animate="visible"
           className="my-2 py-6 text-color-100">I specialize in frontend development, crafting engaging user interfaces and seamless experiences. My expertise lies in HTML, CSS, and JavaScript, with proficiency in framework like React. I have a keen eye for design and usability, ensuring that every project I work on is not only visually appealing but also functional and intuitive. With a passion for staying updated with the latest industry trends, I am committed to delivering high-quality frontend solutions that exceed user expectations.
@@ -41,11 +42,11 @@ function Hero() {
       {/* Right */}
       <div className="md:w-1/2 flex justify-center">
         <motion.img 
-          initial={{x:100, opacity: 0}}
+          initial={{x:15, opacity: 0}}
           animate={{x:0, opacity: 1}}
-          transition={{duration: 1, delay: 1.4}}
+          transition={{duration: 1, delay: 1.1}}
 
-          className="w-full md:w-2/3 rounded-lg shadow-lg" src="src\images\profile.jpg" alt="Elon Jiel" />
+          className="w-full md:w-2/3 rounded-lg shadow-lg" src={profileImage} alt="Elon Jiel" />
       </div>
     </div>
   </section>

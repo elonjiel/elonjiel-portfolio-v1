@@ -26,8 +26,8 @@ function About() {
         {/* Left */}
         <motion.div
          whileInView={{ opacity: 1, x: 0}}
-         initial={{ opacity: 0, x: -100}}
-         transition={{ duration: 1}}
+         initial={{ opacity: 0, x: -15}}
+         transition={{ duration: 1.5}}
          className="w-full lg:w-1/2 mb-8 lg:mb-0 lg:mr-4 lg:pr-4">
             <div className="text-center lg:text-left">
             <h2 className="text-3xl font-semibold text-color-500 mb-8">About Me</h2>
@@ -39,8 +39,8 @@ function About() {
         {/* Right */}
         <motion.div
          whileInView={{ opacity: 1, x: 0}}
-         initial={{ opacity: 0, x: 100}}
-         transition={{ duration: 1}}
+         initial={{ opacity: 0, x: 15}}
+         transition={{ duration: 1.5}}
          className="w-full lg:w-1/2 lg:ml-4 lg:pl-4">
             <div className="text-center lg:text-left">
             <h2 className="text-3xl font-semibold text-color-500 mb-8">Tech Stack</h2>
