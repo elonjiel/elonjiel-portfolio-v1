@@ -53,7 +53,7 @@ function Contact() {
             <a href="https://github.com/elonjiel" target="_blank" className="text-blue-500 hover:underline">
               <AiFillGithub size={32} />
             </a>
-            <a href="https://www.dropbox.com/scl/fi/22136uha1hbiyewt61677/Elon-Jiel-Tumbokon-CV.pdf?rlkey=bo3uqjxca6bllcpqilyqrchc2&st=qy0xudqo&dl=0" target="_blank" className="text-blue-500 hover:underline">
+            <a href="https://elonjiel-cv.tiiny.site/" target="_blank" className="text-blue-500 hover:underline">
               <BsFileText size={32} />
             </a>
           </motion.div>

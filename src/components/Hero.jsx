@@ -36,7 +36,7 @@ function Hero() {
            variants={container(0.9)}
            initial="hidden"
            animate="visible"
-          className="my-2 py-6 text-color-100">I specialize in frontend development, crafting engaging user interfaces and seamless experiences. My expertise lies in HTML, CSS, and JavaScript, with proficiency in framework like React. I have a keen eye for design and usability, ensuring that every project I work on is not only visually appealing but also functional and intuitive. With a passion for staying updated with the latest industry trends, I am committed to delivering high-quality frontend solutions that exceed user expectations.
+          className="my-2 py-6 text-color-100">I specialize in frontend development, crafting engaging user interfaces and seamless experiences. My expertise lies in HTML, CSS, and JavaScript, with proficiency in React, as well as other frameworks like Bootstrap and Tailwind CSS. I have a keen eye for design and usability, ensuring that every project I work on is not only visually appealing but also functional and intuitive. With a passion for staying updated with the latest industry trends, I am committed to delivering high-quality frontend solutions that exceed user expectations.
         </motion.p>
       </div>
       {/* Right */}
